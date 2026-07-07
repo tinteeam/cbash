@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+#include "./commands/chelp.h"
+#include "./commands/cver.h"
+#include "./commands/tinver.h"
+
 
 int main() {
     char cmd[256];
